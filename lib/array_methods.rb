@@ -25,10 +25,10 @@ end
 def find_min_value(array)
    counter = 0 
    min_num = array[0]
-   while array < array.length 
+   while counter < array.length 
    if array[counter] > 0 && min_num > array[counter]
-   counter += 1 
  end 
-   return min_num = array[counter] 
+ counter += 1 
  end 
+ return min_num = array[counter] 
 end
